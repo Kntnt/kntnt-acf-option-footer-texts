@@ -5,7 +5,7 @@
  * Plugin Name:       Kntnt Advanced Custom Field Option Page For Footer Texts
  * Plugin URI:        https://www.kntnt.com/
  * Description:       Allows ACF to add footer texts settings to the Apperence menu.
- * Version:           1.1.0
+ * Version:           1.1.1
  * Author:            Thomas Barregren
  * Author URI:        https://www.kntnt.com/
  * License:           GPL-3.0+
@@ -22,7 +22,7 @@ defined( 'ABSPATH' ) || die;
 // is a mu-plugin, we can't use the activation hook to do this.§
 add_action( 'init', function () {
 	$admin = get_role( 'administrator' );
-	if ( ! $admin->has_cap( kntnt_edit_footer ) ) {
+	if ( ! $admin->has_cap( 'kntnt_edit_footer' ) ) {
 		$admin->add_cap( 'kntnt_edit_footer' );
 	}
 } );
