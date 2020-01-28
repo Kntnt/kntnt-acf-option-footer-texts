@@ -4,8 +4,8 @@
  * @wordpress-plugin
  * Plugin Name:       Kntnt Advanced Custom Field Option Page For Footer Texts
  * Plugin URI:        https://www.kntnt.com/
- * Description:       Allows ACF to add footer texts settings to the Apperence menu.
- * Version:           1.2.0
+ * Description:       Allows ACF to add footer texts settings to the Appearance menu.
+ * Version:           1.2.1
  * Author:            Thomas Barregren
  * Author URI:        https://www.kntnt.com/
  * License:           GPL-3.0+
